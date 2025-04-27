@@ -2,6 +2,7 @@ import Certificate from "./Components/Certification/Certification"
 import DiscoverPerfect from "./Components/DiscoverPerFectProperties/DiscoverPerfect"
 import LuxeryAsset from "./Components/LuxuryAsset/LuxeryAsset"
 import MarketProblemSolution from "./Components/MarketProblem/MarketProblemSolution"
+import ReferralAndReward from "./Components/ReferralAndRewards/ReferralAndReward"
 
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
       <LuxeryAsset/>
       <MarketProblemSolution/>
       <Certificate/>
+      <ReferralAndReward/>
     </>
   )
 }
