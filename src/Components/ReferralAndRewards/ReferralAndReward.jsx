@@ -8,7 +8,7 @@ import { TfiEmail } from "react-icons/tfi"
 import referral from '../../assets/Referal.png'
 function ReferralAndReward () {
   return (
-    <div className="w-11/12 mx-auto  my-20 px-10"><h2 className="text-5xl text-center font-gil-bold">
+    <div className="w-10/12 mx-auto  my-20 px-10"><h2 className="text-5xl text-center font-gil-bold">
     Referral And<span className="text-primary"> Rewards</span>
   </h2>
   <p className="text-paragraph mt-8 text-center">
@@ -58,7 +58,7 @@ function ReferralAndReward () {
         <Box
         sx={{
           width: "100%",
-          height: '175px',
+          height: '185px',
           bgcolor: '#EDF3F7',
           marginTop:'10px',
           marginBottom:"20px",
@@ -81,7 +81,7 @@ function ReferralAndReward () {
       <Box
         sx={{
           width: "100%",
-          height: '175px',
+          height: '185px',
           bgcolor: '#EDF3F7',
           marginTop:'10px',
           padding: '20px', 
@@ -103,7 +103,7 @@ function ReferralAndReward () {
     </div>
     <div>
     <h3 className="text-3xl font-gil-bold mb-2">The game prize</h3>
-    <img src={referral} className=" h-[370px] rounded-xl" />
+    <img src={referral} className="h-[390px] rounded-xl" />
     </div>
   </div>
   </div>
