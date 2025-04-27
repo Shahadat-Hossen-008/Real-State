@@ -1,1 +1,22 @@
 @import "tailwindcss";
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: local('Gilroy-Bold'), url(./../public/Font/Gilroy-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: local('Gilroy-Medium'), url(./../public/Font/Gilroy-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: local('Gilroy-Light'), url(./../public/Font/Gilroy-SemiBold.ttf) format('truetype');
+}
+@theme{
+  --color-text: #000000;
+  --color-primary: #0195FF;
+  --color-paragraph:#666666;
+  --font-gil-bold: 'Gilroy-Bold', sans-serif;
+  --font-gil-medium:'Gilroy-Medium', sans-serif
+}
