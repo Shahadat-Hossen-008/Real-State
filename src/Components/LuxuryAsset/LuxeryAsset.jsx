@@ -3,6 +3,7 @@ import { PiUserSoundThin } from "react-icons/pi";
 import yacht from "../../assets/yacht.png";
 import car from "../../assets/sedan.png";
 import Luxury from "../../assets/luxaryasset.png";
+import { Button } from "@mui/material";
 function LuxeryAsset() {
   return (
     <div className="w-10/12 mx-auto my-20 px-10">
@@ -24,7 +25,7 @@ function LuxeryAsset() {
           <img
             src={Luxury}
             alt="luxury car"
-            className="w-[520px] object-cover"
+            className="w-[520px] object-cover rounded-xl"
           />
         </div>
         <div className="flex-1">
@@ -53,6 +54,7 @@ function LuxeryAsset() {
                 and Audi, and are known for their unique features, comfort, and
                 style.
               </p>
+              <Button variant="contained" className="!rounded-full !p-3 !mt-8">Explore More</Button>
             </div>
           </div>
         </div>

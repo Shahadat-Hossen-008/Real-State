@@ -5,7 +5,7 @@ import { TbTargetArrow } from "react-icons/tb"
 import { LiaHandshake } from "react-icons/lia"
 function DiscoverPerfect () {
   return (
-    <div className="w-10/12 mx-auto px-10">
+    <div className="w-10/12 mx-auto px-10 my-20">
         <h2 className="text-5xl text-center font-gil-bold">Discover the
         <br/>
         Perfect <span className="text-primary">Properties</span> with Ease</h2>
@@ -30,7 +30,7 @@ function DiscoverPerfect () {
                 <div>
                     <h3 className="text-3xl font-gil-bold mb-2">Secondary Market</h3>
                     <p className="text-paragraph">The secondary market in real estate refers to the existing pool of homes, commercial properties, and other types of properties that are already built and occupied.</p>
-                    <Button variant="contained" className="!rounded-full !p-3 !mt-8">Explore Noe</Button>
+                    <Button variant="contained" className="!rounded-full !p-3 !mt-8">Explore More</Button>
                 </div>
                 </div>
                 

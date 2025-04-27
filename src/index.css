@@ -14,7 +14,7 @@
   src: local('Gilroy-Light'), url(./../public/Font/Gilroy-SemiBold.ttf) format('truetype');
 }
 @theme{
-  --color-text: #000000;
+  --color-pTag: #000000;
   --color-primary: #0195FF;
   --color-paragraph:#666666;
   --font-gil-bold: 'Gilroy-Bold', sans-serif;
